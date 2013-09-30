@@ -14,7 +14,7 @@ def setdate(td):
     os.system('date -u %s' % td.strftime('%m%d%H%M%Y'))
     
 img = Image.open('yay.png')
-lookup = {238: 0, 214: 1, 140: 2, 68: 3, 30: 4}
+lookup = {238: 0, 214: 1, 140: 2, 68: 4, 30: 6}
 cdata = []
 for x in range(0, 664, 13):
     for y in range(0, 79, 13):
